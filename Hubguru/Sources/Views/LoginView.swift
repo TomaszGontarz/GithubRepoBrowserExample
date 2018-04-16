@@ -39,7 +39,7 @@ fileprivate extension UIButton {
         signInButton.layer.cornerRadius = 8
         signInButton.layer.borderColor = UIColor(hex: 0x464646).cgColor
         signInButton.layer.borderWidth = 1
-        signInButton.imageEdgeInsets = EdgeInsets(top: 0, left: -10, bottom: 0, right: 10)
+        signInButton.imageEdgeInsets = UIEdgeInsets(top: 0, left: -10, bottom: 0, right: 10)
         return signInButton
     }
 }
