@@ -18,11 +18,11 @@ final class LoginView: UIView {
         backgroundColor = UIColor(hex: 0x262626)
         
         addSubview(signInButton)
-        signInButton <- [
+        signInButton.easy.layout([
             Center(CGPoint(x: 0, y: -100)),
             Height(46),
             Width(250)
-        ]
+        ])
     }
     
     required init?(coder aDecoder: NSCoder) {
