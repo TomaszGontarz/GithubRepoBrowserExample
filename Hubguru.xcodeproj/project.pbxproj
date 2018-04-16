@@ -17,6 +17,11 @@
 		3AC9F05B1DF49A7E004BF516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9F05A1DF49A7E004BF516 /* AppDelegate.swift */; };
 		3AC9F06C1DF49BC1004BF516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC9F05E1DF49A87004BF516 /* Assets.xcassets */; };
 		3AF5D6B31E3F483300AF53E1 /* RepositoryCollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF5D6B21E3F483300AF53E1 /* RepositoryCollectionViewCellController.swift */; };
+		7613C1192084B1A00023BB27 /* EasyPeasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7613C1182084B1A00023BB27 /* EasyPeasy.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7613C1202084B2A30023BB27 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7613C11A2084B2A30023BB27 /* RxCocoa.framework */; };
+		7613C1232084B2A30023BB27 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7613C11D2084B2A30023BB27 /* SwiftyJSON.framework */; };
+		7613C1242084B2A30023BB27 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7613C11E2084B2A30023BB27 /* OHHTTPStubs.framework */; };
+		7613C1262084B6E70023BB27 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7613C11F2084B2A30023BB27 /* RxSwift.framework */; };
 		C601B74B1E001FCA00EED639 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601B74A1E001FCA00EED639 /* Query.swift */; };
 		C601B74D1E0021D700EED639 /* ApiClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601B74C1E0021D700EED639 /* ApiClientConfiguration.swift */; };
 		C601B74F1E0021FD00EED639 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C601B74E1E0021FD00EED639 /* Reusable.swift */; };
@@ -77,6 +82,14 @@
 		3AC9F06A1DF49B05004BF516 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		3AC9F06D1DF49C15004BF516 /* bitrise.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = bitrise.yml; sourceTree = "<group>"; };
 		3AF5D6B21E3F483300AF53E1 /* RepositoryCollectionViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoryCollectionViewCellController.swift; path = Helpers/RepositoryCollectionViewCellController.swift; sourceTree = "<group>"; };
+		7613C1182084B1A00023BB27 /* EasyPeasy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EasyPeasy.framework; path = Carthage/Build/iOS/EasyPeasy.framework; sourceTree = "<group>"; };
+		7613C11A2084B2A30023BB27 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		7613C11B2084B2A30023BB27 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		7613C11C2084B2A30023BB27 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		7613C11D2084B2A30023BB27 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		7613C11E2084B2A30023BB27 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		7613C11F2084B2A30023BB27 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		7613C1272084B6F80023BB27 /* RxTest.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxTest.framework.dSYM; path = Carthage/Build/iOS/RxTest.framework.dSYM; sourceTree = "<group>"; };
 		C601B74A1E001FCA00EED639 /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Protocols/Query.swift; sourceTree = "<group>"; };
 		C601B74C1E0021D700EED639 /* ApiClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiClientConfiguration.swift; path = Protocols/ApiClientConfiguration.swift; sourceTree = "<group>"; };
 		C601B74E1E0021FD00EED639 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reusable.swift; path = Protocols/Reusable.swift; sourceTree = "<group>"; };
@@ -107,6 +120,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7613C1192084B1A00023BB27 /* EasyPeasy.framework in Frameworks */,
+				7613C1202084B2A30023BB27 /* RxCocoa.framework in Frameworks */,
+				7613C1262084B6E70023BB27 /* RxSwift.framework in Frameworks */,
+				7613C1232084B2A30023BB27 /* SwiftyJSON.framework in Frameworks */,
+				7613C1242084B2A30023BB27 /* OHHTTPStubs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +164,7 @@
 				3AC9F0601DF49A8F004BF516 /* Configuration */,
 				3AC9F0691DF49AFB004BF516 /* Other */,
 				3A77087B1DF499D300C3E2BF /* Products */,
+				7613C1172084B1A00023BB27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -221,6 +240,21 @@
 				3AC9F06A1DF49B05004BF516 /* Cartfile */,
 			);
 			name = Other;
+			sourceTree = "<group>";
+		};
+		7613C1172084B1A00023BB27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7613C1272084B6F80023BB27 /* RxTest.framework.dSYM */,
+				7613C11E2084B2A30023BB27 /* OHHTTPStubs.framework */,
+				7613C11C2084B2A30023BB27 /* RxBlocking.framework */,
+				7613C11A2084B2A30023BB27 /* RxCocoa.framework */,
+				7613C11F2084B2A30023BB27 /* RxSwift.framework */,
+				7613C11B2084B2A30023BB27 /* RxTest.framework */,
+				7613C11D2084B2A30023BB27 /* SwiftyJSON.framework */,
+				7613C1182084B1A00023BB27 /* EasyPeasy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C601B7561E0038EF00EED639 /* Providers */ = {
@@ -532,7 +566,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC9F0621DF49A8F004BF516 /* App-Development.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Development;
 		};
@@ -540,7 +579,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC9F0631DF49A8F004BF516 /* App-Staging.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Staging;
 		};
