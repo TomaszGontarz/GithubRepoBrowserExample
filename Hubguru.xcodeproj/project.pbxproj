@@ -532,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC9F0621DF49A8F004BF516 /* App-Development.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Development;
 		};
@@ -539,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3AC9F0631DF49A8F004BF516 /* App-Staging.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Staging;
 		};
